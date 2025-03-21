@@ -4,7 +4,7 @@ def home(request):
     return render(request, 'website/index.html')  # noqa: S106
 
 def about(request):
-    return HttpResponse('This is about page')  # noqa: S106
+    return HttpRespone('This is about page')  # noqa: S106
 
 def contact(request):
-    return HttpResponse('This is contact page')  # noqa: S106
+    return render(request,'website/contact.html')  # noqa: S106
